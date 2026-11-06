@@ -5,6 +5,10 @@
 
 A small, runnable example for [PDF to Markdown Converter](https://apify.com/aurelix/pdf-to-markdown), an Apify Actor by Aurelix.
 
+[![PDF to Markdown OCR & Table Extraction: 75-second demo video](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/pdf-to-markdown-demo-thumb-v1.png)](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/pdf-to-markdown-demo-v1.mp4)
+
+**[▶ Watch the 75-second demo](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/pdf-to-markdown-demo-v1.mp4)**
+
 ## What it does
 
 PDF to Markdown Converter downloads the PDF or Word (DOCX) files you link and returns one row per page: the page as Markdown (headings from font sizes, paragraphs, bullet lists, numeric table rows kept one per line, ruled tables as Markdown tables), every table also as JSON rows, the page split into AI-ready chunks for embeddings, the word count and the document title. Pages without a text layer, such as scans, are read with the open-source Tesseract OCR engine in English, French, Spanish or German.
